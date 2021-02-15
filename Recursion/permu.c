@@ -35,3 +35,29 @@ int main()
     permute(str, 0, n - 1); 
     return 0; 
 } 
+// void permute(int * cur, int l, int r){
+//     if (l == r){
+//         for (int i = 0; i < num; ++i)
+//             printf("%d%c", *(cur+i), " \n"[i == num - 1]);
+//     }
+//     else {
+//         /* 反的 */
+//         // for (int i = 0; i <= r - l; ++i){
+//         //     swap(cur + r - i, cur + r);
+//         //     permute(cur, l, r - 1);
+//         //     swap(cur + r - i, cur + r);
+//         // }
+//         /* 正的, 但非要求 */
+//         // for (int i = 0; i <= r - l; ++i){
+//         //     swap(cur + l, cur + l + i);
+//         //     permute(cur, l + 1, r);
+//         //     swap(cur + l, cur + l + i);
+//         // }
+//         /* 正的, 也不合要求 */
+//         // for (int i = l; i <= r; ++i){
+//         //     swap(cur + l, cur + i);
+//         //     permute(cur, l + 1, r);
+//         //     swap(cur + l, cur + i);
+//         // }
+//     }       
+// }
