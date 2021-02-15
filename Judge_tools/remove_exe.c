@@ -1,6 +1,6 @@
 /* remove redundant .exe */
 # include <stdio.h>
-# include <io.h>
+# include <io.h> // file manipulation
 # include <string.h>
 int main(void){
     long cntlCode; // catch control code
