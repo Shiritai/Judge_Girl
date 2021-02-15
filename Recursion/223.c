@@ -43,7 +43,7 @@ void print_tile(tile cur){
         print_tile(compo_gen(ctClk_trans(cur.type_), cur));
     }
 }
-/* call tiles */
+/* call "strict" tiles */
 void call_recur(int m, int center){
     while (center > 0){
         print_tile((tile) {.len_ = m * 2, .type_ = 1, .x_ = center, .y_ = center});
