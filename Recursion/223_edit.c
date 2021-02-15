@@ -1,4 +1,4 @@
-/* 223. Tiles */
+/* 223. Tiles */ // type 2, 4 寫反了 = =
 # include <stdio.h>
 # include <stdlib.h>
 # define CENTER_TYPE 5
