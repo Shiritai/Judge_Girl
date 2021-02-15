@@ -1,0 +1,17 @@
+# test
+microService:
+  - app: "user-authentication \n"
+    port: 9000
+    version: [1.7, 1.8, 1.9]
+  - app: "boolean test"
+    port: 9002
+    version: 
+    - 1.8
+    - 1.9
+    - 2.0
+    boolean1: yes
+    boolean2: no
+    boolean3: on
+    boolean4: off
+    boolean5: true
+    boolean6: false
