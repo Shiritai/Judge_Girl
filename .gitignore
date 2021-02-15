@@ -1,4 +1,6 @@
 *.exe
+*.in
+*.out
 Free_test
 tempCodeRunnerFile.c
 .vscode
