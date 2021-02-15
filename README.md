@@ -9,6 +9,5 @@
 ## 相關資訊
 題目網站 : [Judge Girl](https://judgegirl.csie.org/)
 
-## 進版圖
-~~*My Judge Girls*~~
+## 進版圖 ~~*(My Judge Girls)*~~
 ![image](https://github.com/Shiritai/Judge_Girl/blob/main/wallpaper422.jpg)
