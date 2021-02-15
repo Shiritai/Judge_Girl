@@ -10,4 +10,4 @@
 題目網站 : [Judge Girl](https://judgegirl.csie.org/)
 
 ## 進版圖
-![image](https://imgur.com/gallery/4hrlsGl)
+![imgur](https://imgur.com/gallery/4hrlsGl)
