@@ -1,3 +1,11 @@
 # Judge_Girl
  批改娘題目練習紀錄
-* 初試 Github, 排版之不適請多加海涵
+
+## 前言
+初試 Github, 排版之不適請多加海涵
+
+## 相關資訊
+題目網站 : [Judge Girl](https://judgegirl.csie.org/)
+
+## 進版圖
+![image](https://github.com/Shiritai/Judge_Girl/blob/main/wallpaper422.jpg)
