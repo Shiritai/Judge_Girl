@@ -21,9 +21,8 @@ node * merge(node * list1, node * list2){
         tmp1 = list2;
     }
     while (tmp2 != NULL && tmp1->next != NULL){
-        if (tmp1->value < tmp2->value && (tmp1->next)->value > tmp2->value){
+        if (tmp1->value < tmp2->value && (tmp1->next)->value > tmp2->value)
             link(&tmp1, &tmp2);
-        }
         else if ((tmp1->next)->value < tmp2->value)
             tmp1 = tmp1->next;
     }
