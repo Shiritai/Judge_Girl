@@ -3,18 +3,19 @@
 
 ## 前言
 初次使用 Git 與 Github，常有排版之不順，導致閱覽之不適，請多加海涵。
+
 目前有其他事優先，這裡僅隨緣更新 OwO
 
 ~~*註：窩寫好慢*~~
 
 ## 環境
 
-**C Environment**
-gcc (windows)|gcc (wsl)|std
+### C Environment
+gcc (windows)|gcc (wsl:ubuntu)|std
 -|:-:|-
-4.8.3|9.3.0|c99
+4.8.3|9.3.0|C99
 
-**IDE**
+### IDE
 Of course, the pretty and powerful **VSCode**!
 
 ## 相關資訊
