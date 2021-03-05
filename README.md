@@ -4,7 +4,7 @@
 ## 前言
 初次使用 Git 與 Github，常有排版之不順，導致閱覽之不適，請多加海涵。
 
-目前有其他事優先，這裡僅隨緣更新 OwO
+目前有其他事優先，這裡暫時僅隨緣更新 OwO
 
 ~~*註：窩寫好慢*~~
 
@@ -20,6 +20,7 @@ Of course, the pretty and powerful **VSCode**!
 
 ## 相關資訊
 題目網站 : [Judge Girl](https://judgegirl.csie.org/)
+
 參考書籍 : [由片語學習C程式設計（第二版）](http://www.press.ntu.edu.tw/index.php?act=book&refer=ntup_book01105)
 
 ## 進版圖 ~~*(My Judge Girls)*~~
