@@ -12,7 +12,7 @@
 
 ### C Environment
 gcc (windows)|gcc (wsl:ubuntu)|std
--|:-:|-
+-:|:-:|-
 4.8.3|9.3.0|C99
 
 ### IDE
