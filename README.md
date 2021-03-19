@@ -24,4 +24,4 @@ Of course, the pretty and powerful **VSCode**!
 參考書籍 : [由片語學習C程式設計（第二版）](http://www.press.ntu.edu.tw/index.php?act=book&refer=ntup_book01105)
 
 ## 進版圖 ~~*(My Judge Girls)*~~
-![image](https://github.com/Shiritai/Judge_Girl/blob/main/wallpaper422.jpg)
+![image](wallpaper422.jpg)
