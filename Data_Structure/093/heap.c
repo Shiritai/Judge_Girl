@@ -6,17 +6,26 @@ void initialize(Heap * heap){
     heap->num = 0;
 }
 
-void shiftUp(Heap * heap, int index){
+static void shiftUp(Heap * heap, int index){
     int originVal = heap->array[index];
+    /* for version */
     for (int newInd = (index - 1) >> 1; index >= 1 && heap->array[newInd] > originVal; newInd = (newInd - 1) >> 1){
         heap->array[index] = heap->array[newInd];
         index = newInd;
     }
+    /* while version */
+    // int newInd = (index - 1) >> 1;
+    // while (index >= 1 && heap->array[newInd] > originVal){
+    //     heap->array[index] = heap->array[newInd];
+    //     index = newInd;
+    //     newInd = (newInd - 1) >> 1;
+    // }
     heap->array[index] = originVal;
 }
 
-void shiftDown(Heap * heap, int index){
+static void shiftDown(Heap * heap, int index){
     int originVal = heap->array[index];
+    /* for version */
     for (int newInd = (index << 1) + 1; newInd < heap->num; newInd = (newInd << 1) + 1){
         if (newInd + 1 < heap->num && heap->array[newInd + 1] < heap->array[newInd])
             ++newInd;
@@ -25,6 +34,17 @@ void shiftDown(Heap * heap, int index){
         heap->array[index] = heap->array[newInd];
         index = newInd;
     }
+    /* while version */
+    // int newInd = (index << 1) + 1;
+    // while (newInd < heap->num){
+    //     if (newInd + 1 < heap->num && heap->array[newInd + 1] < heap->array[newInd])
+    //         ++newInd;
+    //     if (heap->array[newInd] > originVal)
+    //         break;
+    //     heap->array[index] = heap->array[newInd];
+    //     index = newInd;
+    //     newInd = (index << 1) + 1;
+    // }
     heap->array[index] = originVal;
 }
 
