@@ -10,11 +10,7 @@ typedef struct Node {
 int comp(const void * data1, const void * data2){
     int * ptr2 = (int *) data2;
     int * ptr1 = (int *) data1;
-    if (ptr1[1] != ptr2[1])
-        return ptr1[1] - ptr2[1];
-    else 
-        return ptr1[0] - ptr2[0]; 
-        
+    return (ptr1[1] != ptr2[1]) ? ptr1[1] - ptr2[1] : ptr1[0] - ptr2[0];
 }
 
 Node * add(Node * cur, int data){
@@ -89,7 +85,7 @@ int main(void){
 
     Node * root = rebuild(arr, nums);
 
-    // preOrder(root); // for debug
+    // preOrder(root); // for debuging
     
     scanf("%d", &lineNum);
     while (lineNum > 0){
